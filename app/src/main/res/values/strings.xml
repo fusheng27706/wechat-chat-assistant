@@ -1,0 +1,9 @@
+<resources>
+    <string name="chat_accessibility_description">用于检查微信前台范围并显示可停止的辅助卡片。其他应用只检查包名和窗口，不读取正文；微信正文通过您授权的共享和本机 OCR 获取。仅在您点击检查输入框或选择回复后检查当前输入区的可编辑节点和草稿；再次确认后才尝试设置草稿，不能确认则复制兜底。不强行模拟输入，不点击发送。云端默认关闭，需另行明确开启。标题不是账号身份，请人工核对对象。</string>
+    <string name="local_demo_suggestions">模拟 AI 建议（本地）</string>
+    <string name="quick_copy">复制这条</string>
+    <string name="quick_next">换一条</string>
+    <string name="quick_more">更多</string>
+    <string name="reply_copy_card">%1$s · 复制\n%2$s</string>
+    <string name="reply_copy_demo_card">模拟 · %1$s · 复制\n%2$s</string>
+</resources>

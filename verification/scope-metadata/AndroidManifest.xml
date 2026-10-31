@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.codextemp.wechatcaptureprobe.scopeverify">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+    <application android:label="临时窗口元数据验证" android:debuggable="true" android:allowBackup="false">
+        <activity android:name="com.codextemp.wechatcaptureprobe.SlowMetadataActivity" android:process=":slow"
+            android:exported="true" android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+    </application>
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ScopeDelayProbe" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+</manifest>

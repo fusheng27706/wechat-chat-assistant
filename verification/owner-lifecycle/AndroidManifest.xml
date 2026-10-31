@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.codextemp.wechatcaptureprobe.ownerverify">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+    <application android:label="临时投射所有者校验" android:debuggable="true" android:allowBackup="false" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.OwnerFailureSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ProjectionStopSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.OwnerMetricsProbe" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.OwnerPerformanceSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.FrameRetrySmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.FirstFrameBoundarySmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ScopeOwnerSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ScopeCadenceSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ScopeRenderSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ScopeClockSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ScopeTimeSmoke" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+</manifest>

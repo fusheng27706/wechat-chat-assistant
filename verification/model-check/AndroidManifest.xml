@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.codextemp.wechatcaptureprobe.modelcheck">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+    <application android:label="临时模型连接校验" android:debuggable="true" android:allowBackup="false" />
+    <instrumentation android:name="com.codextemp.wechatcaptureprobe.ModelConnectProbe" android:targetPackage="com.codextemp.wechatcaptureprobe" />
+</manifest>

@@ -1,0 +1,21 @@
+.gradle/
+build/
+app/build/
+local.properties
+docs/项目知识库/
+docs/开发方案/
+docs/测试分析/
+docs/SQL/
+.codegraph/
+.workbuddy/
+.idea/
+*.iml
+.DS_Store
+
+# 仅开源代码：开发日志、验证报告、方案与本地资料不入库（本地文件保留）
+/*.md
+!/README.md
+/doc/
+/docs/**
+!/docs/images/
+!/docs/images/**

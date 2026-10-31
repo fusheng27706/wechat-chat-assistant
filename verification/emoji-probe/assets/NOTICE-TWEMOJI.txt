@@ -1,0 +1,8 @@
+Twemoji graphics by Twitter, Inc. and other contributors.
+Source: https://github.com/jdecked/twemoji/tree/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b
+The 80 original assets/72x72/1f600.png through 1f64f.png files are unmodified.
+Graphics license: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+The full upstream license is included as twemoji/LICENSE-GRAPHICS.
+Runtime scaling, background composition, and feature extraction are research transformations.
+These assets are included only in the isolated verification APK, not in the assistant app.
